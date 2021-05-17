@@ -13,12 +13,7 @@
                     {% for list in list %}
                         <div class="article-box clearfix excerpt-1">
                             <div class="col-md-6">
-{#                                <div class="thumbnail">#}
-{#                                    <a href="{% url 'index' %}show-{{ list.id }}.html" title="{{ list.title }}">#}
-{#                                        <img src="media/{{ list.img }}"#}
-{#                                             srcset="media/{{ list.img }}"#}
-{#                                             alt="{{ list.title }}" class="wp-post-image" width="240" height="160"/></a>#}
-{#                                </div>#}
+
                                    <h5><a href="{% url 'index' %}show-{{ list.id }}.html" target="_blank"
                                        title="{{ list.title }}">{{ list.title }}</a></h5>
                             </div>
